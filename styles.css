@@ -1,0 +1,40 @@
+
+
+.graph {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #777;
+  shape-rendering: crispEdges;
+}
+
+.axis .tick line {
+  stroke: #ddd;
+}
+
+.axis-label {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.legend-label {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.dot {
+  fill: rgb(23, 88, 10);
+}
+
+.dot-allegations {
+  fill: rgb(18, 100, 7);
+}
+
+.dot-no-allegations {
+  fill: rgb(83, 11, 56);
+}
